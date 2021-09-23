@@ -13,5 +13,8 @@ gpu
 We used Mixed-large 综合(Baidu Netdisk / Google Drive)，300dim
 https://github.com/Embedding/Chinese-Word-Vectors
 
+# dependency parser
+ddparser   https://pypi.org/project/ddparser/
+
 # train
 python main.py --config train.config
