@@ -1,4 +1,5 @@
 # Boundary-Enhanced-NER
+This is for ACL2021 paper, https://aclanthology.org/2021.acl-short.4/.
 It's keeping updating.
 
 # env
