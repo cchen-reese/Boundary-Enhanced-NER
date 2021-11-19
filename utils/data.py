@@ -106,6 +106,7 @@ class Data:
         self.HP_star_glu = 2
         self.use_gcn = True
         self.HP_gcn_layer = 1
+        self.HP_gcn_type = 'gcn'
 
         self.HP_gpu = False
         self.HP_lr = 0.015
@@ -534,6 +535,9 @@ class Data:
         the_item = 'gcn_layer'
         if the_item in config:
             self.HP_gcn_layer = int(config[the_item])
+        the_item = 'gcn_type'
+        if the_item in config:
+            self.HP_gcn_type = config[the_item]
 
         the_item = 'cnn_layer'
         if the_item in config:
