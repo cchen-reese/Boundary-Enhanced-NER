@@ -191,6 +191,7 @@ class Data:
         print("     Hyper        star_glu: %s"%(self.HP_star_glu))
         print("     Hyper         use_gcn: %s" % (self.use_gcn))
         print("     Hyper       gcn_layer: %s" % (self.HP_gcn_layer))
+        print("     Hyper        gcn_type: %s" % (self.HP_gcn_type))
 
 
         print("     Hyper             GPU: %s"%(self.HP_gpu))
