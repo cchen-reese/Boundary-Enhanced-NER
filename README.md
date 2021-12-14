@@ -3,7 +3,7 @@ This is for ACL2021 paper, https://aclanthology.org/2021.acl-short.4/.
 It's keeping updating.
 
 # env
-pytorch 0.4.1 on gpu, cuda <= 10.2
+pytorch 0.4.1 on gpu, cuda <= 10.0
 ```
 conda create -n torch04 python==3.6.5
 conda install numpy==1.17.4 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
