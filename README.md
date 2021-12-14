@@ -8,7 +8,7 @@ pytorch 0.4.1 on gpu, cuda <= 10.2
 conda create -n torch04 python==3.6.5
 conda install numpy==1.17.4 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
 conda install cuda92
-Conda install pytorch==0.4.1
+conda install pytorch==0.4.1
 ```
 
 # dataset
