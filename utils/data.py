@@ -107,6 +107,7 @@ class Data:
         self.use_gcn = True
         self.HP_gcn_type = 'gcn'
         self.HP_gcn_layer = 1
+        self.HP_gcn_type = 'gcn'
 
         self.HP_gpu = False
         self.HP_lr = 0.015
@@ -192,6 +193,7 @@ class Data:
         print("     Hyper         use_gcn: %s" % (self.use_gcn))
         print("     Hyper        gcn_type: %s" % (self.HP_gcn_type))
         print("     Hyper       gcn_layer: %s" % (self.HP_gcn_layer))
+        print("     Hyper        gcn_type: %s" % (self.HP_gcn_type))
 
 
         print("     Hyper             GPU: %s"%(self.HP_gpu))
@@ -539,6 +541,9 @@ class Data:
         the_item = 'gcn_layer'
         if the_item in config:
             self.HP_gcn_layer = int(config[the_item])
+        the_item = 'gcn_type'
+        if the_item in config:
+            self.HP_gcn_type = config[the_item]
 
         the_item = 'cnn_layer'
         if the_item in config:
